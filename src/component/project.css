@@ -1,0 +1,112 @@
+.proj {
+  width: 100%;
+}
+.row div {
+}
+.one,
+.two,
+.three {
+  height: 750px;
+  padding-top: 90px;
+  border: 1px solid rgba(200, 1, 210, 0.4);
+  border-top: none;
+}
+.one .title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.one .is {
+  font-size: 20px;
+  margin-bottom: 55px;
+}
+.one .lead {
+  width: 600px;
+  margin-bottom: 60px;
+}
+.one .link {
+  text-decoration: none;
+  width: 100px;
+  height: 20px;
+  color: #fff;
+  background-color: rgba(200, 1, 210, 255);
+  padding: 10px;
+  border-left: 5px solid orange;
+  transition: 0.3s ease-in-out;
+  margin-bottom: 30px;
+}
+.one .link:hover {
+  background-color: orange;
+  border-left: 5px solid blue;
+}
+.one .bot {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 216px;
+}
+.two div {
+  margin-top: 531px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 270px;
+  font-size: 20px;
+}
+.cadre {
+}
+.cadre1 {
+  position: relative;
+  top: -75px;
+  left: 200px;
+}
+.cadre1 #one {
+  width: 100px;
+  position: absolute;
+  bottom: -68px;
+  right: 100px;
+  border-radius: 8px;
+}
+.cadre1 #two {
+  border-radius: 8px;
+  width: 240px;
+  /* position: relative; */
+  /* left: 100px; */
+  height: 117px;
+}
+.cadre2 {
+  position: relative;
+  top: -90px;
+  right: 300px;
+}
+.cadre2 #one {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  top: -80px;
+  left: 160px;
+  border-radius: 8px;
+}
+.cadre2 #two {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  left: 300px;
+  top: 30px;
+  border-radius: 8px;
+}
+.cadre3 {
+  width: 300px;
+  position: relative;
+  left: 250px;
+  bottom: 130px;
+}
+.cadre3 #one {
+  width: 200px;
+  border-radius: 8px;
+}
+.cadre3 #two {
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  left: -170px;
+  top: 100px;
+}
